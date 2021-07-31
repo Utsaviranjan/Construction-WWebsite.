@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(16, 51, 71);
+    height: 60px;
+    font-family: 'Lato', sans-serif;
+}
+nav{
+    display:flex;
+}
+.logo{
+    display:flex;
+    align-items: center;
+}
+nav ul{
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 22px;
+}
+.p{
+    color: rgb(206, 202, 126);
+    list-style: none;
+    padding-left: 400px 0;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: rgb(212, 211, 129);
+    font-weight: bold;
+}
+.slider{
+    background-image: url(construction.jpg);
+    margin: auto;
+    height: 430px;
+    width: 950px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 70px;
+    margin-right: 70px;
+    width: 1100px;
+    height: 500px;
+}
+.slider h1{
+    /* padding-left: 200px;
+    padding-top: 35px; */
+    text-align: center;
+    padding-top: 35px;
+}
+.pre{
+    padding-top:  20px; 
+    font-family: 'Shippori Mincho', serif;
+    text-align: center;
+}
+.button{
+    color: rgb(212, 211, 129);
+    padding-left: 500px;
+    padding-right: 444px;
+    padding-top: 79px;
+    cursor: pointer;
+    font-weight: bold;
+    border: rgb(212, 211, 129);
+    padding-bottom: 15px;
+    padding-right: 30px;
+    padding-left: 500px;
+    padding-top: 160px;
+}
+
+.about{
+    background-image: url(landdscape.jpg);
+    margin: 0;
+    padding: 25px;
+    width: 1212px;
+    height: 510px;
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+.about ul{
+    padding-left: 90px;
+    padding-top: 10px;
+}
+.forms{
+   background-color: rgba(213, 196, 60, 0.53); 
+   justify-content: center;
+   text-align: center;
+   padding-top: 0px;
+}
+.text{
+    padding-top: 8px;
+}
+.forms h2{
+    padding-top: 30px;
+    font-family:'Saira Condensed', sans-serif ;
+}
+.container{
+    min-height: calc(100vh - 60px - 36px);
+}
+footer{
+    background-color: rgb(16, 51, 71);
+    color:rgb(223, 193, 95);
+    font-family: 'Saira Condensed', sans-serif;
+    height: 50px;
+}
